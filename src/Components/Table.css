@@ -1,0 +1,59 @@
+/* Light Mode */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: var(--table-bg);
+    color: #8C8C8C;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+    border: 1px solid var(--faq-item-border-color);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: var(--table-bg);
+    font-weight: bold;
+}
+
+.custom-table a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.youtube-icon {
+    color: red;
+}
+
+.geeks-icon {
+    color: green;
+}
+
+.custom-table a:hover {
+    color: #000;
+}
+
+.difficulty.easy {
+    color: rgb(22 163 74);
+    background-color: var(--dif-bg);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.custom-table input[type="checkbox"] {
+    cursor: pointer;
+}
+
+tr .revision,
+.add-note {
+    cursor: pointer;
+}

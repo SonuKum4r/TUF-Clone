@@ -1,0 +1,116 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--background-color);
+  color: #e45e49;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 0.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: 0.5rem;
+  border-radius: 8px;
+  width: 40%;
+  height: fit-content;
+  max-height: 20%;
+  max-width: 500px;
+  overflow: hidden;
+  align-self: center;
+  border: 0.5px solid var(--faq-item-border-color);
+}
+
+.progress-info {
+  font-family: 'Titillium Web';
+  display: flex;
+  color: #8C8C8C;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.9rem;
+  margin: 0px 8px 0px 0px;
+
+}
+
+.progress-bar {
+  width: 90%;
+  height: 8px;
+  background-color: #33333347;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  color: #212121;
+  background-color: #e45e49;
+  width: 0;
+  /* Initially 0% progress */
+  transition: width 0.3s ease;
+}
+
+.revision-button {
+  align-self: center;
+  font-family: 'Titillium Web';
+  background-color: #ef5436;
+  box-shadow: #ef5436 0px 3px 9px;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: '600';
+  transition: background-color 0.3s;
+  border: 0px solid rgb(39 39 42);
+}
+
+.revision-button:hover {
+  background-color: #f26154;
+
+}
+
+/* Responsive styling */
+@media (max-width: 500px) {
+  .progress-info {
+    font-size: 0.8rem;
+  }
+
+  .revision-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+.shuffle-button {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon-shuffle {
+  background-color: var(--background-color);
+  margin-right: 8px;
+  border-radius: 10px;
+  border: 0.5px solid #8C8C8C;
+  color: #8C8C8C;
+  padding: 5px;
+  padding: 10px;
+  font-size: 25px;
+  align-self: center;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.icon-shuffle:hover {
+  background-color: rgb(253 237 234);
+  color: #ee4a2c;
+  border: 0.5px solid #9e3723;
+
+}

@@ -1,0 +1,33 @@
+  /* light-mode */
+  .light-theme {
+    background-color: white;
+    --background-color: rgb(255 255 255);
+    --table-bg: white;
+    --text-color: rgb(31 41 55);
+    --light-dark-btn:rgb(31 41 55);
+    --faq-btn: white;
+    --dif-bg:rgb(163 246 194);
+    --num-btn: rgb(250 250 250);
+    --down-arrow: rgb(250 250 250);
+    --pink-class-color: rgb(252 ,219 ,213);
+    --faq-item-border-color: rgb(212 212 216);
+    --login-bg:rgb(253 237 234);
+  }
+  
+  /* dark-mode */
+  .dark-theme {
+    background-color: rgb(17 17 17);
+    --table-bg: rgb(17 17 17);
+    --num-btn: rgb(33 33 33);
+    --down-arrow: rgb(33 33 33);
+    --light-dark-btn:white;
+    --dif-bg:rgba(11 40 22 /1);
+    --faq-item-border-color: rgb(39 39 42);
+    --background-color: rgb(25 25 25);
+    --text-color: rgb(212 212 216);
+    --faq-btn: rgb(17 17 17);
+    --login-bg:rgb(17 17 17);
+    --pink-class-color: rgb(39 39 42);
+  }
+  
+  

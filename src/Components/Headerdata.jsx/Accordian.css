@@ -1,0 +1,23 @@
+.modal-container {
+    border-bottom: 1px solid black;
+    margin: 0.5rem 0;
+
+    position: relative;
+    cursor: pointer;
+    font-family: "Titillium Web";
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.modal-container p {
+    padding-left: 2rem;
+    color: black;
+}
+
+.span {
+    position: absolute;
+    right: 2rem;
+    color: #b20a09;
+
+}

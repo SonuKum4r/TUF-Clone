@@ -1,0 +1,106 @@
+/* navbar css starts here */
+.hamburger-icon{
+  color:var(--text-color);
+  font-size: 2rem;
+  display: none;
+  padding-left: 1rem;
+}
+@media (max-width: 1000px) {
+  .hamburger-icon{
+    display: block;
+  }
+}
+.navbar {
+  height: 4rem;
+  width: -webkit-fill-available;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--faq-item-border-color);
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+
+}
+@media (max-width: 1000px) {
+  .navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content:space-between;
+  }
+}
+
+
+
+.item-content {
+  padding-right: 2rem;
+  display: flex;
+}
+
+.sidebar {
+  padding-left: 2rem;
+}
+
+ 
+
+.navbar-button {
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.light-button {
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  color: var(--light-dark-btn);
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+
+
+.navbar-button.mentorship {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 2px solid var(--faq-item-border-color);
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  /* padding-bottom: 5px; */
+  border-radius: 0.75rem;
+}
+
+.navbar-button.theme-toggle {
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-button.login {
+  background-color: #e11d48;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  border-color: rgb(190 18 60);
+
+}
+
+.navbar-button.login:hover {
+  background-color: #ff0037;
+}
+
+/* navbar css ends here */

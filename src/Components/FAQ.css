@@ -1,0 +1,124 @@
+  .App {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding-top: 5rem;
+  }
+
+  .faq-list {
+    padding-left: 1rem;
+    margin: 20px 0;
+  }
+
+  .faq-item,
+  .sub-faq-item {
+    border: 1px solid var(--faq-item-border-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 0.5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+  }
+
+  .sub-faq-answer {
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+    /* width: 100%; */
+  }
+  
+@media (max-width: 1000px) {
+  .sub-faq-answer{
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+}
+
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .sub-faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-answer,
+  .sub-faq-answer {
+    padding-top: 30px;
+  }
+
+  .faq-arrow-up {
+    font-size: 24px;
+    margin-left: 10px;
+    border: 1px solid rgb(245 147 128);
+    background-color: rgb(253 237 234);
+    width: 2rem;
+    color: rgb(238 75 43);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+  }
+
+  .faq-arrow-down {
+    font-size: 24px;
+    margin-left: 10px;
+    border: 1px solid var(--faq-item-border-color);
+    background-color: var(--down-arrow);
+    width: 2rem;
+    color: rgb(156 163 175);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+  }
+
+  .faq-arrow-num {
+    font-size: 14px;
+    border: 1px solid var(--faq-item-border-color);
+    color: var(--text-color);
+    font-weight: normal;
+    background-color: var(--num-btn);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.7rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+
+  .pink {
+    box-shadow: 0px -4px 0px var(--pink-class-color);
+    border-radius: 8px;
+  }
+
+  .textColorblack {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .textColorRed {
+    color: rgb(238 75 43);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .twobtn {
+    display: flex;
+    padding-top: 0.5rem;
+  }
